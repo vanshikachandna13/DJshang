@@ -226,5 +226,60 @@ body{
         }
             
         }
+ @media only screen and (max-width: 320px){
+            .container{
+                height: 100%;
+                 width: 200%;
+                
+                }
+                .videoitemcontainer{
+                    display:grid;
+                    grid-template-columns: 350px ;
+                    margin-top: 10px;
+                    margin-left: 5px;
+                    overflow: hidden;
+                   
+                }
+                #myProgressBar{
+                    width: 45vh;
+                } 
+                .songinfo{
+                    align-items: center;
+                    margin-bottom: 40px;
+                    margin-left:50px;
+                    
+
+                }     
+         #gif{
+            display: none;
+         }
+              
+        
+        .icons{
+            margin-left: 0px;
+            margin-bottom: 5px;
+        }
+        .songItem{
+            width: 100%;
+        }
+        .songItem img{
+            
+            
+            width: 26px;
+            height: 30px;
+            margin-left: 0px;
+             
+            
+        }
+        .songName{
+            margin-left:20px;
+            font-size: 15px;
+        }
+        .timespan{
+            font-size: 12px;
+        }
+       
+        }
+
        
     
