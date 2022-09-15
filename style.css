@@ -280,13 +280,13 @@ body{
         }
        
         }
-@media only screen and (max-width: 480px){
+    @media only screen and (max-width: 480px){
             
             .videoitemcontainer{
                 display:grid;
                 grid-template-columns: 300px ;
                 margin-top: 10px;
-                margin-left: 0px;
+                margin-left: 80px;
                
             }
             #myProgressBar{
@@ -295,7 +295,7 @@ body{
             } 
             .bottom{
                margin-left: 0px;
-                width:90%;
+                width:100%;
                 position: sticky;
     
               
@@ -303,7 +303,7 @@ body{
             .songinfo{
                 align-items: center;
                 margin-bottom: 40px;
-                margin-left:25px;
+                margin-left: 50px;
                 
 
             }  
@@ -312,6 +312,7 @@ body{
              }
              .songItem{
                 width: 100%;
+                margin-left: 50px;
             }
             .songItem img{
             
@@ -324,10 +325,13 @@ body{
             }
             .songName{
                 margin-left:20px;
-                font-size: 12px;
+                font-size: 15px;
             }
             .timespan{
-                font-size: 12px;
+                font-size: 15px;
+            }
+            #video6{
+                margin-top: 20px;
             }
                      
         }
