@@ -303,7 +303,7 @@ body{
             .songinfo{
                 align-items: center;
                 margin-bottom: 40px;
-                margin-left: 15px;
+                margin-left: 50px;
                 
 
             }  
@@ -312,7 +312,7 @@ body{
              }
              .songItem{
                 width: 100%;
-                margin-left: 50px;
+                margin-left: 15px;
             }
             .songItem img{
             
