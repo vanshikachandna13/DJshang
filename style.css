@@ -286,7 +286,7 @@ body{
                 display:grid;
                 grid-template-columns: 300px ;
                 margin-top: 10px;
-                margin-left: 80px;
+                margin-left: 25px;
                
             }
             #myProgressBar{
@@ -303,7 +303,7 @@ body{
             .songinfo{
                 align-items: center;
                 margin-bottom: 40px;
-                margin-left: 50px;
+                margin-left: 15px;
                 
 
             }  
