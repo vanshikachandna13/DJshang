@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgba(239, 232, 232, 0.689);
+    height: 42vh;
+    background-size: 1580px 320px;
+    background-image: url(page/djshang.png);
+   
+    
+}
+.mini{
+    margin-bottom: 3vh;
+    
+}
+body{
+    background-color: #404040;
+    
+    
+}
+.container{
+    height: 40vh;
+     background-color: black;
+     color: white;
+     font-family: 'varela Round' , sans-serif;
+     margin: 60px auto;
+     width: 90%;
+     border-radius: 12px;
+     padding: 34px;
+    
+}
+
+.videoitemcontainer{
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    margin-top: 30px;
+}
+
+.container1{
+    min-height:130vh;
+    background-color: black;
+     color: white;
+     font-family: 'varela Round' , sans-serif;
+     display:flex;
+     margin-top: 0px;
+     margin-bottom: 23px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 90%;
+     border-radius: 0px 0px 12px 12px;
+     padding: 34px;
+     margin-bottom: 70px;
+     background-image: url(page/music.jpg);
+     background-repeat: no-repeat;
+     background-position-x: 500px;
+     background-position-y: 120px;
+     background-size: 900px  600px;
+     background-attachment: fixed;
+   
+    
+}
+.songItemContainer{
+    margin-top: 54px;
+    
+}
+.titlename{
+    display: flex;
+}
+#mic{
+    font-size: 40px;
+    margin-left: 8px;
+}
+.songItem{
+   
+    height: 60px;
+    display: flex;
+    background-color: black;
+    
+    color: white;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 150%;
+    margin-bottom: 15px;
+}
+
+.songItem img{
+    width: 54px;
+    height: 54px;
+    margin-left: 4px;
+   
+}
+.songitemcontainer{
+    margin-top: 50px;
+ }
+
+ .songinfo{
+     position: absolute;
+     left: 15vw;
+     font-family: 'varela Round' , sans-serif;
+  }
+  .songinfo img{
+     margin-right: 10px;
+     margin-top: 5px;
+     opacity: 0;
+     transition: opacity 0.4s ease-in;
+  }
+  .timespan{
+    margin: 0px 23px;   
+    align-content: center;
+   }
+    .timespan i{
+       cursor: pointer;
+       margin-left:5px;
+    }
+    .bottom{
+        position: sticky;
+        top: 0;
+        width:1440px;
+        margin-left: auto;
+        margin-right: auto;
+          
+        height: 115px;
+        color: black;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #384C6F;
+        background-image: url(page/sun.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+       
+       
+
+
+    }
+    .icons{
+        margin-top: 14px;
+        color: white;
+        
+    }
+    .icons i{
+        cursor: pointer;
+    }
+    #myProgressBar{
+        width: 150vh;
+        cursor: pointer;
+        
+        
+    } 
+    .box{
+        min-height:170hv;
+        background-color: #404040;
+       
+       
+    }
+   #masterSongName{
+    font-size: 20px;
+    font-family: 'varela Round' , sans-serif;
+    color:white;
+   }
+    #music{
+        font-size: 35px;
+        margin-bottom: 10px;
+        margin-left:  20px;
+    }
+    #music1{
+        font-size: 25px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    @media only screen and (max-width: 600px){
+        header{
+            background-size: 100% 400px;
+            background-repeat: no-repeat;
+            background-color: #404040;
+            
+             
+        }
+        .container{
+        height: 100%;
+         width: 80%;
+        }
+       
+            .videoitemcontainer{
+                display:grid;
+                grid-template-columns: 500px ;
+                margin-top: 10px;
+                margin-left: 50px;
+               
+            }
+            .videoitem{
+             
+              margin-bottom: 30px;
+             
+            }
+            .bottom{
+                position: sticky;
+                top: 0;
+                width:110%;
+    
+                background-size: 100%;
+            }
+            #myProgressBar{
+                width: 60vh;
+            }  
+                
+            .songinfo{
+                align-items: center;
+                margin-bottom: 40px;
+                margin-left:80px;
+            }    
+            
+             .icons{
+                margin-top: 40px;
+             }  
+        
+        .container1{
+            background-image: none;
+            
+        }
+            
+        }
+       
+    
