@@ -6,8 +6,10 @@
 header {
     background-color: rgba(239, 232, 232, 0.689);
     height: 42vh;
-    background-size: 1580px 320px;
+    background-size: 100% 100%;
     background-image: url(page/djshang.png);
+    background-repeat: no-repeat;
+  
    
     
 }
@@ -26,15 +28,15 @@ body{
      color: white;
      font-family: 'varela Round' , sans-serif;
      margin: 60px auto;
-     width: 90%;
+    min-width: 100%;
      border-radius: 12px;
      padding: 34px;
-      
+    
 }
 
 .videoitemcontainer{
     display:grid;
-    grid-template-columns: 500px 500px 500px;
+    grid-template-columns: 480px 480px 480px;
     margin-top: 30px;
 }
 
@@ -119,7 +121,7 @@ body{
     .bottom{
         position: sticky;
         top: 0;
-        width:1440px;
+        width:95%;
         margin-left: auto;
         margin-right: auto;
           
@@ -226,10 +228,11 @@ body{
         }
             
         }
- @media only screen and (max-width: 320px){
+       
+        @media only screen and (max-width: 320px){
             .container{
                 height: 100%;
-                 width: 200%;
+                width: 90%; 
                 
                 }
                 .videoitemcontainer{
@@ -278,9 +281,12 @@ body{
         .timespan{
             font-size: 12px;
         }
+        .bottom{
+            position: sticky;
+        }
        
         }
-    @media only screen and (max-width: 480px){
+        @media only screen and (max-width: 480px){
             .container{
                 
                  width: 90%;
@@ -344,14 +350,10 @@ body{
                 font-size: 15px;
               } 
               header{
-                background-position: center;
-                background-size: contain;
-                background-position-y: 50px;
+              
+                background-size: 100% 100%;
                
                 
-              } 
-        .container{
-                margin-top: 0px;
               }   
-        
+              
         }
