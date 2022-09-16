@@ -29,6 +29,7 @@ body{
      width: 90%;
      border-radius: 12px;
      padding: 34px;
+       margin-top: 0px;
     
 }
 
@@ -280,7 +281,7 @@ body{
         }
        
         }
-     @media only screen and (max-width: 480px){
+    @media only screen and (max-width: 480px){
             .container{
                 
                  width: 90%;
@@ -302,7 +303,7 @@ body{
             } 
             .bottom{
                margin-left: 0px;
-                width:105%;
+                width:108%;
                 position: sticky;
     
               
@@ -310,15 +311,13 @@ body{
             .songinfo{
                 
                 margin-bottom: 30px;
-                margin-left: 90px;
+                margin-left: 0%;
               
                 
                 
 
             }  
-            #gif{
-                display: none;
-             }
+           
              .songItem{
                 width: 100%;
                 margin-left: 0px;
@@ -347,8 +346,9 @@ body{
               } 
               header{
                 background-position: center;
-                background-size: cover;
-                
+                background-size: contain;
+                background-position-y: 50px;
+               
                 
               }      
         }
