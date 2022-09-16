@@ -29,8 +29,7 @@ body{
      width: 90%;
      border-radius: 12px;
      padding: 34px;
-       margin-top: 0px;
-    
+      
 }
 
 .videoitemcontainer{
@@ -350,5 +349,9 @@ body{
                 background-position-y: 50px;
                
                 
-              }      
+              } 
+        .container{
+                margin-top: 0px;
+              }   
+        
         }
