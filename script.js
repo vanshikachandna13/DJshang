@@ -11,7 +11,7 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
     {songName:"Falling In love",filePath:"songs/1.mp3",coverPath:"covers/1.jpg"},
-    {songName:" Perfect-One Direction",filePath:"songs/2.mp3",coverPath:"covers/2.jpg"},
+    {songName:" Perfect",filePath:"songs/2.mp3",coverPath:"covers/2.jpg"},
     {songName:"Photograph",filePath:"songs/3.mp3",coverPath:"covers/3.jpg"},
     {songName:"Say U Wont let go",filePath:"songs/4.mp3",coverPath:"covers/4.jpg"},
     {songName:"Memories",filePath:"songs/5.mp3",coverPath:"covers/5.jpg"},
