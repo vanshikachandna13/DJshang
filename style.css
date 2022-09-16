@@ -280,7 +280,12 @@ body{
         }
        
         }
-    @media only screen and (max-width: 480px){
+     @media only screen and (max-width: 480px){
+            .container{
+                
+                 width: 200%;
+                
+                }
             
             .videoitemcontainer{
                 display:grid;
@@ -290,20 +295,24 @@ body{
                
             }
             #myProgressBar{
-                width: 55%;
+                width: 75%;
+                margin-left: 3px;
+                margin-right: 5px;
               
             } 
             .bottom{
                margin-left: 0px;
-                width:100%;
+                width:110%;
                 position: sticky;
     
               
             }
             .songinfo{
-                align-items: center;
-                margin-bottom: 40px;
-                margin-left: 50px;
+                
+                margin-bottom: 30px;
+                margin-left: 100px;
+              
+                
                 
 
             }  
@@ -312,14 +321,14 @@ body{
              }
              .songItem{
                 width: 100%;
-                margin-left: 15px;
+                margin-left: 0px;
             }
             .songItem img{
             
                 
                 width: 25px;
                 height: 25px;
-                margin-left: 0px;
+                margin-left: 15px;
                  
                 
             }
@@ -335,6 +344,4 @@ body{
             }
                      
         }
-
-       
     
